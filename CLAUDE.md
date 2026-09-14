@@ -27,6 +27,8 @@
 - R3 / UniRx は入れない（判断の根拠は仕様書 11.5）
 - ブロックの描画はオブジェクトプール。`Instantiate` / `Destroy` を毎回呼ばない
 - 調整用の数値はコードに直接書かず `GameRuleAsset` / `PieceShapeAsset` に置く
+- 画面は Title / InGame / Paused / Result の4つ。**シーンは1つだけ**で、切り替えはUIのオン・オフ。`SceneManager` でシーンを分けない
+- リトライは `GameSession` を作り直す。前回の状態をリセットする処理は書かない
 
 ## 見た目
 
