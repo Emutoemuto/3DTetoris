@@ -1,0 +1,20 @@
+{
+    "name": "ThreeDTetris.App",
+    "rootNamespace": "ThreeDTetris.App",
+    "references": [
+        "ThreeDTetris.Core",
+        "ThreeDTetris.Presentation",
+        "ThreeDTetris.Input",
+        "Unity.InputSystem",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

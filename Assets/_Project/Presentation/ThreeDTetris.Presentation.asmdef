@@ -1,0 +1,17 @@
+{
+    "name": "ThreeDTetris.Presentation",
+    "rootNamespace": "ThreeDTetris.Presentation",
+    "references": [
+        "ThreeDTetris.Core",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
